@@ -1,0 +1,14 @@
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.csprojAssemblyReference.cache
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.csproj.CoreCompileInputs.cache
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\bin\Debug\netcoreapp2.1\EIS.deps.json
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\bin\Debug\netcoreapp2.1\EIS.runtimeconfig.json
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\bin\Debug\netcoreapp2.1\EIS.runtimeconfig.dev.json
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\bin\Debug\netcoreapp2.1\EIS.dll
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\bin\Debug\netcoreapp2.1\EIS.pdb
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.RazorAssemblyInfo.cache
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.RazorAssemblyInfo.cs
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.AssemblyInfoInputs.cache
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.AssemblyInfo.cs
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.RazorTargetAssemblyInfo.cache
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.dll
+C:\Users\stone\Desktop\projects and stuff\EIS\EIS\obj\Debug\netcoreapp2.1\EIS.pdb
