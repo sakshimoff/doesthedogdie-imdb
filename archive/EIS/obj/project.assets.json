@@ -11802,11 +11802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stone\\Desktop\\projects and stuff\\EIS\\EIS\\EIS.csproj",
+      "projectUniqueName": "C:\\Users\\stone\\Desktop\\projects and stuff\\EIS\\doesthedogdie-imdb\\EIS\\EIS.csproj",
       "projectName": "EIS",
-      "projectPath": "C:\\Users\\stone\\Desktop\\projects and stuff\\EIS\\EIS\\EIS.csproj",
+      "projectPath": "C:\\Users\\stone\\Desktop\\projects and stuff\\EIS\\doesthedogdie-imdb\\EIS\\EIS.csproj",
       "packagesPath": "C:\\Users\\stone\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stone\\Desktop\\projects and stuff\\EIS\\EIS\\obj\\",
+      "outputPath": "C:\\Users\\stone\\Desktop\\projects and stuff\\EIS\\doesthedogdie-imdb\\EIS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
