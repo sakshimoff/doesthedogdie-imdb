@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
+using System.Text;
 using imdb_dtdd.Models;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace imdb_dtdd.Controllers
 {
@@ -14,30 +15,39 @@ namespace imdb_dtdd.Controllers
         {
             return View();
         }
-
-        public IActionResult About()
+        public IActionResult Index(string name)
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
+            List<imdbModel> movie = SearchMovie(name);
+            return View(movie);
         }
 
-        public IActionResult Contact()
+        private static List<imdbModel> SearchMovie(string name)
         {
-            ViewData["Message"] = "Your contact page.";
+            string apiUrl = "http://www.omdbapi.com/?apikey=3af9c9ea&t="+name;
+            string result = null;
 
-            return View();
-        }
+                HttpWebRequest reqobj = (HttpWebRequest)WebRequest.Create(apiUrl);
+                reqobj.Method = "GET";
+                reqobj.ContentType = "application/json;charset=utf-8";
+                HttpWebResponse res = null;
+                var response = (HttpWebResponse)reqobj.GetResponse();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+                using (System.IO.Stream stream = (response.GetResponseStream()))
+                {
+                    StreamReader rd = new StreamReader(stream);
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+                    result = rd.ReadToEnd();
+
+                List<imdbModel> movie = JsonConvert.DeserializeObject<List<imdbModel>>(result);
+
+                rd.Close();
+
+                    return movie;
+                }
+            }
         }
+        
+    
     }
-}
+
+
