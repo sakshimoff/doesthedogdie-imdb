@@ -46,6 +46,8 @@ namespace imdbdtdd2
                     lbldirector.Text = listres.director;
                     lblplot.Text = listres.plot;
                 }
+
+               
             }
             }
             
